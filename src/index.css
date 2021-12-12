@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d1d9dd;
+}
+.container {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.second {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.main-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  border: 3px solid coral;
+  border-radius: 15px;
+  margin-top: 200px;
+  padding: 5px;
+}
+.time-text {
+  color: rgb(206, 24, 206);
+  font-size: 40px;
+}
+.time-btn {
+  height: 40px;
+  width: 150px;
+  background-color: orange;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.time-btn:hover {
+  color: #fff;
+  background-color: #000;
+}
